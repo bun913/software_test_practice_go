@@ -13,11 +13,9 @@ func TestPetTemp_GetTempCondtion(t *testing.T) {
 		{"寒いの代表値:20.0", 20.0, ColdMessage},
 		{"寒いの境界値:23.9", 23.9, ColdMessage},
 		{"快適の境界値:24.0", 24.0, SuitableMessage},
-		{"快適の境界値:24.1", 24.1, SuitableMessage},
 		{"快適の代表値:25.0", 25.0, SuitableMessage},
 		{"快適の境界値:25.9", 25.9, SuitableMessage},
 		{"暑いの境界値:26.0", 26.0, HotMessage},
-		{"暑いの境界値:26.1", 26.1, HotMessage},
 		{"暑いの代表値:30.0", 30.0, HotMessage},
 	}
 	for _, tt := range tests {
