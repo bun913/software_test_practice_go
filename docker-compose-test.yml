@@ -4,6 +4,6 @@ services:
     build: ./Dockerfiles/test
     tty: true
     stdin_open: true
-    command: /bin/bash
+    command: /bin/ash
     volumes:
       - .:/go/src/work
