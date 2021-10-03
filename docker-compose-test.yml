@@ -1,7 +1,7 @@
 version: '3'
 services:
   app:
-    build: ./Dockerfile/Dockerfiles/test
+    build: ./Dockerfiles/test
     tty: true
     stdin_open: true
     command: /bin/bash
